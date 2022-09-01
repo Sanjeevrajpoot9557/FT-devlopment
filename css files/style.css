@@ -1,0 +1,11 @@
+.inputfields{
+  border-radius: 25px;  
+
+}
+.button :hover{
+    color: rgb(70, 132, 8);
+
+}
+.submit{
+    background-color: darkorange;
+}

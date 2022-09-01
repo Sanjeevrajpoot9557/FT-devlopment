@@ -1,0 +1,79 @@
+<!Doctype>
+<html>
+    <head>
+        <title>HTML FORM</title>
+        <style>
+            label{
+                color: rgb(149, 243, 7);
+            }
+            input{
+                border-radius:25px;
+            }
+        </style>
+        <link href="css files/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+    <form action="a.php" method="get" style="border: black;">
+     <fieldset style="background-color:rgba(235, 236, 236, 0.837);">    
+        <label id="name_label" for="name">Name</label> <br> 
+        <input type="text" name=:"name" id="name" placeholder="Enter your name" required> 
+        <br>
+        <br>
+        <label id="Email_label" for="email">Email</label>
+        <br>
+        <input type="text" name="eamil" id="eamil" placeholder="test@gmail.com" required>
+        <br>
+        <br>
+        <label id="label_name" for="Roll No">Roll No</label>
+        <br>
+        <input type="text" name="Roll no" id="Roll no" placeholder=" roll" required>
+        <br>
+        <br>
+        <label id="label_nmae" for="How do you rate our corse?">How do you rate our corse?</label>
+        <br>
+        <input type="text" name="How do you rate our corse?" id="How do you rate our corse?" placeholder="Excellent" required>
+        <br>
+        <br>
+
+        <select name="drop down" id="deop down">
+            <option value="execellent">Execellent</option>
+            <option value="good">good</option>
+            <option value="fair">fair</option>
+            <option value="poor">poor</option>
+        </select>
+        
+        <br>
+        <br>
+        
+        <label>Your favorite topic in Html</label>
+        <br>
+
+        <input type="checkbox" name="topic1" value="structural element">structural element
+
+        <br>
+        <input type="checkbox" name="topic2" value="linksendlist">linksendlist
+        <br>
+        <input type="checkbox" name="topic3" value="Html table">Html table
+        <br>
+        <input type="checkbox" name="topic4" value="Groupelement">Grouping element
+        <br>
+        <input type="checkbox" name="topic5" value="form">Form
+        <br>
+        <br>
+        
+        <label> do you like the html corse?</label>
+        <br>
+        <input type="radio" name="corse" value="yes">yes
+        <input type="radio" name="corse" value="no">No
+        <br>
+        <br>
+        <label>few worls about corse</label>
+        <br>
+        <textarea rows="5" cols="50" name="description" id="Description"></textarea>
+        <br>
+        <br>
+        <button type="button"  onclik="alert ('validating')">Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>        

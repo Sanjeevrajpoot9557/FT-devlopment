@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(177, 220, 220);
+    
+}
+
+.item{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(117,137,240);
+    margin: 40px 0 0 40px;
+    font-style: oblique;
+    text-align: center;
+    /* postion static */
+}
+.item > div{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(13, 50, 231);
+    margin: 40px 0 0 40px;
+    /* postion static */
+    position: relative;
+    top: 20px;
+    right: 10px;
+    left: 10px;
+
+}
+.item2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(4, 7, 22);
+    margin: 40px 0 0 40px;
+    /* postion static */
+}
+.item2 >div{
+    width:50px;
+    height:50px;
+    margin: 0%;
+    background-color: #fd0808;
+
+    /*
+    1 postion absulte direct
+    */
+    position: sticky;
+    top: 5px;
+    left: 5;
+
+
+}
+
+

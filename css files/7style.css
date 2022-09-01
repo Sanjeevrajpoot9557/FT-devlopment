@@ -1,0 +1,50 @@
+*{
+    background: aquamarine;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background:  darkblue;
+
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: round 2s ease-in-out backwards infinite alternate;
+
+
+}
+.container:hover >.child{
+    animation-play-state: paused;
+
+
+}
+@keyframes round{
+    /* states in the animation*/
+    /* intial, rpremid, mid post mid end*/
+    0%{
+        transform: translateX(0%);
+
+    }
+    100%{
+        transform:translateX(500%);
+    }
+    33%{
+        transform: translateY(500%);
+
+    }
+    75%{
+        transform: translateX(500%) translateY(500%);
+    }
+    100%{
+        transform: translateX(500%);
+    }
+    
+
+    
+
+
+}
